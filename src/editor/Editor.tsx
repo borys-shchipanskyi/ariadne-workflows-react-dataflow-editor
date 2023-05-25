@@ -49,7 +49,7 @@ export function Editor<S extends Schema>(props: EditorProps<S>) {
 			<DndProvider backend={HTML5Backend}>
 				<div
 					className="editor"
-					style={{ display: "flex", flexDirection: "column" }}
+					style={{ display: "flex", flexDirection: "row" }}
 				>
 					<Toolbox kinds={props.kinds} />
 					<Canvas kinds={props.kinds} state={props.state} dispatch={dispatch} />
