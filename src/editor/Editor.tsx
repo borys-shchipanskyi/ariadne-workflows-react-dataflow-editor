@@ -57,4 +57,4 @@ export function Editor<S extends Schema>(props: EditorProps<S>) {
 			</DndProvider>
 		</CanvasContext.Provider>
 	)
-}
+} 
