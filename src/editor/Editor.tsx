@@ -53,7 +53,7 @@ export function Editor<S extends Schema>(props: EditorProps<S>) {
 				>
 					<Toolbox kinds={props.kinds} />
 					<Canvas kinds={props.kinds} state={props.state} dispatch={dispatch} />
-					<p>Some text here 222</p>
+					<p>Some text here 333</p>
 				</div>
 			</DndProvider>
 		</CanvasContext.Provider>
